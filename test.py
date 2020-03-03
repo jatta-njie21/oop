@@ -11,9 +11,14 @@ class Oop():
     def sub(self):
         z = self.num1 - self.num2
         print(z)
+        
+    def mul(self):
+        z = self.num1 * self.num2
+        print(z)
 
 
 test = Oop(45,5)
 
 test.add()
 test.sub()
+test.mul()
